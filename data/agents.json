@@ -1,0 +1,8 @@
+[
+{ "name": "Sara", "team": "Core Support", "activeTickets": 5 },
+{ "name": "Hassan", "team": "Integrations", "activeTickets": 4 },
+{ "name": "Areeba", "team": "Billing Ops", "activeTickets": 3 },
+{ "name": "Bilal", "team": "General Support", "activeTickets": 6 },
+{ "name": "Mariam", "team": "Technical Escalations", "activeTickets": 2 },
+{ "name": "Zain", "team": "Customer Success", "activeTickets": 3 }
+]

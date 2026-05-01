@@ -1,0 +1,254 @@
+@"
+# ===================================
+# Python
+# ===================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===================================
+# Django
+# ===================================
+*.log
+*.pot
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+*.mo
+*.po
+
+# Django migrations (keep __init__.py)
+apps/*/migrations/0*.py
+apps/*/migrations/1*.py
+apps/*/migrations/2*.py
+apps/*/migrations/3*.py
+apps/*/migrations/4*.py
+apps/*/migrations/5*.py
+!apps/*/migrations/__init__.py
+
+# ===================================
+# Virtual Environment
+# ===================================
+venv/
+env/
+ENV/
+.venv/
+venv.bak/
+pythonenv*
+
+# ===================================
+# IDE & Editors
+# ===================================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim/Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+*.vim
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===================================
+# Operating Systems
+# ===================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===================================
+# Environment & Configuration
+# ===================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+*.env
+!.env.example
+
+# ===================================
+# Logs & Database
+# ===================================
+logs/
+*.log
+log/
+*.sql
+*.sqlite3
+*.db
+*.dump
+
+# ===================================
+# Media & Static (User Uploaded)
+# ===================================
+media/
+mediafiles/
+staticfiles/
+static/
+staticfiles/
+collected_static/
+
+# But keep the static folder structure
+!static/
+!static/css/
+!static/js/
+!static/images/
+!static/fonts/
+!static/css/.gitkeep
+!static/js/.gitkeep
+!static/images/.gitkeep
+!static/fonts/.gitkeep
+
+# ===================================
+# Testing & Coverage
+# ===================================
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.pytest_cache/
+.testmondata
+testresults/
+test-reports/
+nosetests.xml
+unittest.xml
+
+# ===================================
+# Celery
+# ===================================
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+
+# ===================================
+# Docker
+# ===================================
+docker-compose.override.yml
+.docker/
+Dockerfile.local
+
+# ===================================
+# Security & Secrets
+# ===================================
+*.pem
+*.key
+*.crt
+*.csr
+secrets/
+secret/
+secrets.yml
+secrets.yaml
+secret_key.txt
+*.secret
+*.keytab
+
+# ===================================
+# Jupyter Notebooks
+# ===================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===================================
+# Other
+# ===================================
+*.bak
+*.tmp
+*.temp
+.cache/
+*.cache
+.sass-cache/
+*.scssc
+node_modules/
+bower_components/
+vendor/
+tmp/
+temp/
+.hypothesis/
+.ropeproject/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# ===================================
+# Project Specific
+# ===================================
+# Generated files
+output.txt
+debug.txt
+fix_permissions.py
+check_system.py
+test_system.py
+test_django.py
+diagnose.py
+
+# Backup files
+*.backup
+*.old
+*.orig

@@ -1,0 +1,16 @@
+[
+{ "customerTier": "basic", "priority": "low", "hours": 72 },
+{ "customerTier": "basic", "priority": "medium", "hours": 48 },
+{ "customerTier": "basic", "priority": "high", "hours": 24 },
+{ "customerTier": "basic", "priority": "urgent", "hours": 12 },
+
+{ "customerTier": "pro", "priority": "low", "hours": 48 },
+{ "customerTier": "pro", "priority": "medium", "hours": 24 },
+{ "customerTier": "pro", "priority": "high", "hours": 12 },
+{ "customerTier": "pro", "priority": "urgent", "hours": 6 },
+
+{ "customerTier": "enterprise", "priority": "low", "hours": 24 },
+{ "customerTier": "enterprise", "priority": "medium", "hours": 12 },
+{ "customerTier": "enterprise", "priority": "high", "hours": 6 },
+{ "customerTier": "enterprise", "priority": "urgent", "hours": 2 }
+]
